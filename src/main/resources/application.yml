@@ -15,6 +15,7 @@ spring:
           # <- git 으로 init 된 디렉토리 (로컬 git 디렉토리). git init -> git add . -> git commit -m "commit message" -> git branch -M main
           uri: https://github.com/newtein80/msa_config_files.git
           default-label: main # branch name
+          # search-paths: "{application}"
           timeout: 5
           clone-on-start: true
           force-pull: true
